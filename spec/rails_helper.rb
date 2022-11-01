@@ -65,15 +65,11 @@ RSpec.configure do |config|
 end
 
 VCR.configure do |config|
-  config.before_record do |config|
-    i.response.body.force_encoding('UTF-8')
-  end
   config.cassette_library_dir = 'spec/fixtures/vcr_cassettes'
   config.hook_into :webmock
   config.configure_rspec_metadata!
-  config.default_cassette_options = { re_record_interval: 15.seconds }
-  config.filter_sensitive_data('apiKey') { ENV['everyorg_api_key'] }
-  config.allow_http_connections_when_no_cassette = true
+  config.filter_sensitive_data('DONT SHOW MY API KEY') { ENV['movie_api_key'] }
+  config.default_cassette_options = { re_record_interval: 7.day }
 end
 
 Shoulda::Matchers.configure do |config|
