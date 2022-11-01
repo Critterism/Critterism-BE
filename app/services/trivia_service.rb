@@ -9,7 +9,7 @@ class TriviaService
     end
 
     def get_trivia_data
-    response = conn.get("/api.php?amount=50&category=27") 
+    response = conn.get("/api.php?amount=10&category=27") 
     TriviaService.parse(response)[:results]
     end
   end
