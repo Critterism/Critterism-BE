@@ -3,6 +3,7 @@ class CharitySerializer
   attributes :description,
              :ein,
              :name,
+             :slug,
              :profile_url,
              :location,
              :tags

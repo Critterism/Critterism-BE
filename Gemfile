@@ -31,14 +31,14 @@ gem 'jsonapi-serializer'
 # gem 'rack-cors'
 
 group :development, :test do
+  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+  gem 'factory_bot_rails'
   gem 'pry'
-  gem 'rspec-rails'
 end
 
 group :test do
-  gem 'factory_bot_rails'
   gem 'faker'
-  gem 'orderly'
+  gem 'rspec-rails'
   gem 'shoulda-matchers'
   gem 'simplecov', require: false
   gem 'vcr'

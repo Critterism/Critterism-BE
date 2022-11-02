@@ -9,7 +9,7 @@ RSpec.describe Trivia do
         difficulty: 'easy',
         question: 'the axolotl us amphibian that can spend it whole life in a larval state?',
         correct_answer: 'true',
-        incorrect_answer: ['False']
+        incorrect_answers: ['False']
         }
     end
     it 'instantiates described class' do
@@ -19,7 +19,7 @@ RSpec.describe Trivia do
       expect(trivia.type).to eq('boolean')
       expect(trivia.question).to eq('the axolotl us amphibian that can spend it whole life in a larval state?')
       expect(trivia.correct_answer).to eq('true')
-      expect(trivia.incorrect_answer).to eq(['False'])
+      expect(trivia.incorrect_answers).to eq(['False'])
     end
   end
 end

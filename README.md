@@ -22,3 +22,6 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+## trivia endpoint ##
+`localhost:3000/api/v1/trivia`
