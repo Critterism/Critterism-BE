@@ -11,7 +11,7 @@ class Charity
     @description = data[:description]
     @ein = data[:ein]
     @name = data[:name]
-    @profile_url = data[:profileURL]
+    @profile_url = data[:profileUrl]
     @location = data[:location] || data[:locationAddress]
     @tags = data[:tags]
     @slug = data[:slug] || data[:primarySlug]
