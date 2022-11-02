@@ -31,6 +31,7 @@ gem 'jsonapi-serializer'
 # gem 'rack-cors'
 
 group :development, :test do
+<<<<<<< Updated upstream
   gem 'pry'
   gem 'rspec-rails'
 end
@@ -39,6 +40,19 @@ group :test do
   gem 'factory_bot_rails'
   gem 'faker'
   gem 'orderly'
+=======
+  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'factory_bot_rails'end
+  gem 'pry'
+
+group :test do
+  gem 'capybara'
+  gem 'faker'
+  gem 'launchy'
+  gem 'orderly'
+  gem 'rspec-rails'
+>>>>>>> Stashed changes
   gem 'shoulda-matchers'
   gem 'simplecov', require: false
   gem 'vcr'
