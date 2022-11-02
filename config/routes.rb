@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
       resources :trivia, only: [:index]
+      get 'charities/wildlife', to: 'charities#wildlife'
     end
   end
 
