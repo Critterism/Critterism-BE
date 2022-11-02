@@ -4,4 +4,10 @@ class CharityFacade
       Charity.new(data)
     end
   end
+
+   def self.animal_charities
+    CharityService.get_animal_charities[:nonprofits].map do |data|
+      Charity.new(data)
+    end
+  end
 end
