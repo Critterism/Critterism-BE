@@ -2,6 +2,23 @@ require 'rails_helper'
 
 RSpec.describe 'Charity Poro' do
   it 'exists and has proper Charity attributes' do
+#     data =  {
+#    "description":"Works with local shelters and humane societies to care for and find homes for abandoned domestic rabbits.. San Diego House Rabbit Society is a volunteer-driven, nonprofit rabbit welfare organization that works with local shelters and humane societie",
+#    "ein":"651262427",
+#    "name":"San Diego House Rabbit Society, Inc",
+#    "profileUrl":"https://www.every.org/sandiegorabbits",
+#    "logoUrl":"https://res.cloudinary.com/everydotorg/image/upload/c_lfill,w_24,h_24,dpr_2/c_crop,ar_24:24/q_auto,f_auto,fl_progressive/faja_profile/gddtx40sdndahqvjwdm0",
+#    "coverImageUrl":"https://res.cloudinary.com/everydotorg/image/upload/f_auto,c_limit,w_3840,q_80/faja_cover/zzu8arff46dq6e0yi7uh",
+#    "logoCloudinaryId":"faja_profile/gddtx40sdndahqvjwdm0","
+#    matchedTerms":[
+#     "rabbit"
+#    ],
+#    "slug":"sandiegorabbits",
+#    "location":"SAN DIEGO, CA",
+#    "tags":[
+#     "animals"
+#    ]
+#   }
     data = {
       "description": 'The Fungi Foundation is a global organization that works for the Fungi, their habitats, and the people who depend on them.. Launched in 2012, the Fungi Foundation is the first NGO dedicated to the fungi kingdom. Since its inception, it has achieved',
       "ein": '851478153',

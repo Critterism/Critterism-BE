@@ -58,7 +58,7 @@ RSpec.describe CharityService do
   end
 
   it 'gets a single charity by slug', :vcr do
-    parsed = CharityService.get_charity_by_slug('bunny-world-foundation')
+    parsed = CharityService.get_charity_by_slug('bunny-world-foundation')[:data]
 
     expect(parsed).to be_a Hash
     expect(parsed.keys).to eq([:nonprofit, :nonprofitTags])
