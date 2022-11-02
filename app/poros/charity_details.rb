@@ -6,7 +6,7 @@ class CharityDetails
               :description,
               :location,
               :logo,
-              :profile
+              :profile_url
 
   def initialize(data)
     @id = data[:nonprofit][:id]
@@ -15,6 +15,6 @@ class CharityDetails
     @description = data[:nonprofit][:description]
     @location = data[:nonprofit][:locationAddress]
     @logo = data[:nonprofit][:logoUrl]
-    @profile = data[:nonprofit][:profileUrl]
+    @profile_url = data[:nonprofit][:profileUrl]
   end
 end

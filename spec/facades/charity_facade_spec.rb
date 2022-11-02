@@ -21,7 +21,7 @@ RSpec.describe CharityFacade do
     expect(charity.location).to eq('LOS ANGELES, CA')
     expect(charity.logo).to eq('https://res.cloudinary.com/everydotorg/image/upload/c_lfill,w_24,h_24,dpr_2/c_crop,ar_24:24/q_auto,f_auto,fl_progressive/faja_profile/cdyalof6zfbqdmpfgdi0')
     expect(charity.name).to eq('Bunny World Foundation')
-    expect(charity.profile).to eq('https://www.every.org/bunny-world-foundation')
+    expect(charity.profile_url).to eq('https://www.every.org/bunny-world-foundation')
     expect(charity.slug).to eq('bunny-world-foundation')
   end
 end
