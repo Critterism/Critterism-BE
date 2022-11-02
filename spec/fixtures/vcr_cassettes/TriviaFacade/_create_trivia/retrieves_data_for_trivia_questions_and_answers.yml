@@ -1,0 +1,65 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://opentdb.com/api.php?amount=10&category=27
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 02 Nov 2022 13:43:55 GMT
+      Server:
+      - Apache
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Access-Control-Allow-Origin:
+      - "*"
+      Set-Cookie:
+      - PHPSESSID=5c98ec918dcb604ab2361d84cc634453; path=/
+      Upgrade:
+      - h2
+      Connection:
+      - Upgrade
+      Vary:
+      - User-Agent
+      Strict-Transport-Security:
+      - max-age=31536000
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"response_code":0,"results":[{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
+        is the scientific name for modern day humans?","correct_answer":"Homo Sapiens","incorrect_answers":["Homo
+        Ergaster","Homo Erectus","Homo Neanderthalensis"]},{"category":"Animals","type":"multiple","difficulty":"easy","question":"The
+        K\u0101k\u0101p\u014d is a large, flightless, nocturnal parrot native to which
+        country?","correct_answer":"New Zealand","incorrect_answers":["South Africa","Australia","Madagascar"]},{"category":"Animals","type":"multiple","difficulty":"easy","question":"Hippocampus
+        is the Latin name for which marine creature?","correct_answer":"Seahorse","incorrect_answers":["Dolphin","Whale","Octopus"]},{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        is the scientific name for the &quot;Polar Bear&quot;?","correct_answer":"Ursus
+        Maritimus","incorrect_answers":["Polar Bear","Ursus Spelaeus","Ursus Arctos"]},{"category":"Animals","type":"multiple","difficulty":"easy","question":"How
+        many legs do butterflies have?","correct_answer":"6","incorrect_answers":["2","4","0"]},{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
+        scientific suborder does the family Hyaenidae belong to?","correct_answer":"Feliformia","incorrect_answers":["Haplorhini","Caniformia","Ciconiiformes"]},{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
+        do you call a baby bat?","correct_answer":"Pup","incorrect_answers":["Cub","Chick","Kid"]},{"category":"Animals","type":"boolean","difficulty":"easy","question":"A
+        caterpillar has more muscles than humans do.","correct_answer":"True","incorrect_answers":["False"]},{"category":"Animals","type":"multiple","difficulty":"hard","question":"Which
+        of the following is another name for the &quot;Poecilotheria Metallica Tarantula&quot;?","correct_answer":"Gooty","incorrect_answers":["Hopper","Silver
+        Stripe","Woebegone"]},{"category":"Animals","type":"multiple","difficulty":"hard","question":"To
+        which biological phylum do all mammals, birds and reptiles belong?","correct_answer":"Chordata","incorrect_answers":["Echinodermata","Annelida","Placazoa"]}]}'
+  recorded_at: Wed, 02 Nov 2022 13:43:55 GMT
+recorded_with: VCR 6.1.0
