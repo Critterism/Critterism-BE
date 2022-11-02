@@ -14,4 +14,9 @@ class CharityService
     response = conn.get("/v0.2/browse/animals")
     JSON.parse(response.body, symbolize_names: true)
   end
+
+  def self.get_charity_by_slug(slug)
+    response = conn.get("/v0.2/nonprofit/#{slug}")
+    JSON.parse(response.body, symbolize_names: true)[:data]
+  end
 end
