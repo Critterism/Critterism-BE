@@ -9,4 +9,9 @@ class CharityService
     response = conn.get("/v0.2/browse/wildlife")
     JSON.parse(response.body, symbolize_names: true)
   end
+
+  def self.get_animal_charities
+    response = conn.get("/v0.2/browse/animals")
+    JSON.parse(response.body, symbolize_names: true)
+  end
 end

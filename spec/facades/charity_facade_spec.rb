@@ -6,4 +6,10 @@ RSpec.describe CharityFacade do
 
     expect(wildlife_charities.count).to eq(10)
   end
+
+    it 'can retrieve animal charities', :vcr do
+    animal_charities = CharityFacade.animal_charities
+
+    expect(animal_charities.count).to eq(9)
+  end
 end
