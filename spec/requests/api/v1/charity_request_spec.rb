@@ -36,7 +36,7 @@ RSpec.describe 'Charity API Requests' do
       slug: 'bunny-world-foundation',
       tags: ['animals']
     })
-    
+
     slug = bwf.slug
     get "/api/v1/charities/#{slug}"
 
@@ -51,11 +51,11 @@ RSpec.describe 'Charity API Requests' do
     expect(charity[:attributes][:description]).to eq('Dedicated to combatting animal cruelty and illegal animal sales through rescue efforts, public education, investigations, legislation, special events and media.')
     expect(charity[:attributes][:ein]).to eq('263792479')
     expect(charity[:attributes][:name]).to eq('Bunny World Foundation')
-    expect(charity[:attributes][:slug]).to eq('')
+    expect(charity[:attributes][:slug]).to eq('bunny-world-foundation')
     expect(charity[:attributes][:profile_url]).to eq('https://www.every.org/bunny-world-foundation')
     expect(charity[:attributes][:logo]).to eq('https://res.cloudinary.com/everydotorg/image/upload/c_lfill,w_24,h_24,dpr_2/c_crop,ar_24:24/q_auto,f_auto,fl_progressive/faja_profile/cdyalof6zfbqdmpfgdi0')
     expect(charity[:attributes][:location]).to eq('LOS ANGELES, CA')
     expect(charity[:attributes][:tags]).to be_an Array
-    expect(charity[:attributes][:tags]).to eq()
+    expect(charity[:attributes][:tags]).to eq(['animals'])
   end
 end
