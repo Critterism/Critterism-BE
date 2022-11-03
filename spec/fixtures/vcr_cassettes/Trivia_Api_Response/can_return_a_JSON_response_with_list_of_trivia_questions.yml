@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 02 Nov 2022 21:13:54 GMT
+      - Thu, 03 Nov 2022 01:37:01 GMT
       Server:
       - Apache
       Expires:
@@ -31,7 +31,7 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Set-Cookie:
-      - PHPSESSID=a3828920e8ae2fbf49b86015578623fb; path=/
+      - PHPSESSID=f8a582b6e7843fb6fd12eab78f55e797; path=/
       Upgrade:
       - h2
       Connection:
@@ -46,19 +46,22 @@ http_interactions:
       - application/json
     body:
       encoding: UTF-8
-      string: '{"response_code":0,"results":[{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+      string: '{"response_code":0,"results":[{"category":"Animals","type":"boolean","difficulty":"easy","question":"The
+        Axolotl is an amphibian that can spend its whole life in a larval state.","correct_answer":"True","incorrect_answers":["False"]},{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
         does &quot;hippopotamus&quot; mean and in what langauge?","correct_answer":"River
         Horse (Greek)","incorrect_answers":["River Horse (Latin)","Fat Pig (Greek)","Fat
-        Pig (Latin)"]},{"category":"Animals","type":"multiple","difficulty":"medium","question":"A
-        carnivorous animal eats flesh, what does a nucivorous animal eat?","correct_answer":"Nuts","incorrect_answers":["Nothing","Fruit","Seaweed"]},{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
-        color\/colour is a polar bear&#039;s skin?","correct_answer":"Black","incorrect_answers":["White","Pink","Green"]},{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
-        scientific suborder does the family Hyaenidae belong to?","correct_answer":"Feliformia","incorrect_answers":["Haplorhini","Caniformia","Ciconiiformes"]},{"category":"Animals","type":"boolean","difficulty":"easy","question":"A
-        flock of crows is known as a homicide.","correct_answer":"False","incorrect_answers":["True"]},{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
-        type of creature is a Bonobo?","correct_answer":"Ape","incorrect_answers":["Lion","Parrot","Wildcat"]},{"category":"Animals","type":"multiple","difficulty":"hard","question":"Unlike
-        on most salamanders, this part of a newt is flat?","correct_answer":"Tail","incorrect_answers":["Head","Teeth","Feet"]},{"category":"Animals","type":"boolean","difficulty":"easy","question":"A
-        caterpillar has more muscles than humans do.","correct_answer":"True","incorrect_answers":["False"]},{"category":"Animals","type":"boolean","difficulty":"easy","question":"The
-        Killer Whale is considered a type of dolphin.","correct_answer":"True","incorrect_answers":["False"]},{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
-        is the scientific name of the Common Chimpanzee?","correct_answer":"Pan troglodytes","incorrect_answers":["Gorilla
-        gorilla","Pan paniscus","Panthera leo"]}]}'
-  recorded_at: Wed, 02 Nov 2022 21:13:55 GMT
+        Pig (Latin)"]},{"category":"Animals","type":"multiple","difficulty":"easy","question":"The
+        K\u0101k\u0101p\u014d is a large, flightless, nocturnal parrot native to which
+        country?","correct_answer":"New Zealand","incorrect_answers":["South Africa","Australia","Madagascar"]},{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
+        scientific family does the Aardwolf belong to?","correct_answer":"Hyaenidae","incorrect_answers":["Canidae","Felidae","Eupleridae"]},{"category":"Animals","type":"boolean","difficulty":"easy","question":"In
+        2016, the IUCN reclassified the status of Giant Pandas from endangered to
+        vulnerable.","correct_answer":"True","incorrect_answers":["False"]},{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
+        is the Gray Wolf&#039;s scientific name?","correct_answer":"Canis Lupus","incorrect_answers":["Canis
+        Aureus","Canis Latrans","Canis Lupus Lycaon"]},{"category":"Animals","type":"multiple","difficulty":"hard","question":"Which
+        of these animals is NOT a lizard?","correct_answer":"Tuatara","incorrect_answers":["Komodo
+        Dragon","Gila Monster","Green Iguana"]},{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
+        type of creature is a Bonobo?","correct_answer":"Ape","incorrect_answers":["Lion","Parrot","Wildcat"]},{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
+        is the collective noun for a group of crows?","correct_answer":"Murder","incorrect_answers":["Pack","Gaggle","Herd"]},{"category":"Animals","type":"boolean","difficulty":"easy","question":"Rabbits
+        are carnivores.","correct_answer":"False","incorrect_answers":["True"]}]}'
+  recorded_at: Thu, 03 Nov 2022 01:37:01 GMT
 recorded_with: VCR 6.1.0
