@@ -7,10 +7,14 @@ RSpec.describe TriviaFacade do
 
       expect(trivia_questions[0]).to be_a Trivia
       expect(trivia_questions.count).to eq(10)
-      expect(trivia_questions[1].question).to be_a String
-      expect(trivia_questions[1].type).to be_a String
-      expect(trivia_questions[1].correct_answer).to be_a String
-      expect(trivia_questions[1].question).to eq("The Kākāpō is a large, flightless, nocturnal parrot native to which country?")
+      trivia_questions.each do |question|
+        expect(question.category).to eq('Animals')
+        expect(question.question).to be_a String
+        expect(question.difficulty).to be_a String
+        expect(question.type).to be_a String
+        expect(question.correct_answer).to be_a String
+        expect(question.incorrect_answers).to be_an Array
+      end
     end
   end
 end

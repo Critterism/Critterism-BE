@@ -12,10 +12,18 @@ class CharityFacade
   end
 
   def self.charity(slug)
-    charity = CharityService.get_charity_by_slug(slug).map do |info|
-      data = info[1]
-      CharityDetails.new(data)
-    end
-    charity[0]
+    charity = CharityService.get_charity_by_slug(slug)
+    data = OpenStruct.new({
+      id: charity[:data][:nonprofit][:id],
+      description: charity[:data][:nonprofit][:description],
+      ein: charity[:data][:nonprofit][:ein],
+      location: charity[:data][:nonprofit][:locationAddress],
+      logoUrl: charity[:data][:nonprofit][:logoUrl],
+      name: charity[:data][:nonprofit][:name],
+      profileUrl: charity[:data][:nonprofit][:profileUrl],
+      slug: charity[:data][:nonprofit][:primarySlug],
+      tags: [charity[:data][:nonprofitTags][0][:tagName]]
+      })
+      Charity.new(data)
   end
 end

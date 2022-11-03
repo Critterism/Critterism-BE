@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 01 Nov 2022 18:44:55 GMT
+      - Thu, 03 Nov 2022 01:37:04 GMT
       Server:
       - Apache
       Expires:
@@ -31,7 +31,7 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Set-Cookie:
-      - PHPSESSID=f5b7b9b9bd759de8c9b9da6235d71a52; path=/
+      - PHPSESSID=bacc0d9ca4cf77ca30c0e22ad7d5dd86; path=/
       Upgrade:
       - h2
       Connection:
@@ -46,21 +46,21 @@ http_interactions:
       - application/json
     body:
       encoding: UTF-8
-      string: '{"response_code":0,"results":[{"category":"Animals","type":"boolean","difficulty":"easy","question":"The
-        Axolotl is an amphibian that can spend its whole life in a larval state.","correct_answer":"True","incorrect_answers":["False"]},{"category":"Animals","type":"boolean","difficulty":"medium","question":"An
-        octopus can fit through any hole larger than its beak.","correct_answer":"True","incorrect_answers":["False"]},{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
-        is the scientific name for modern day humans?","correct_answer":"Homo Sapiens","incorrect_answers":["Homo
-        Ergaster","Homo Erectus","Homo Neanderthalensis"]},{"category":"Animals","type":"multiple","difficulty":"hard","question":"Which
+      string: '{"response_code":0,"results":[{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        type of animal is a natterjack?","correct_answer":"Toad","incorrect_answers":["Bird","Fish","Insect"]},{"category":"Animals","type":"multiple","difficulty":"hard","question":"Which
         species of Brown Bear is not extinct?","correct_answer":"Syrian Brown Bear","incorrect_answers":["California
-        Grizzly Bear","Atlas Bear","Mexican Grizzly Bear"]},{"category":"Animals","type":"multiple","difficulty":"easy","question":"How
-        many legs do butterflies have?","correct_answer":"6","incorrect_answers":["2","4","0"]},{"category":"Animals","type":"boolean","difficulty":"easy","question":"Cats
-        have whiskers under their legs.","correct_answer":"True","incorrect_answers":["False"]},{"category":"Animals","type":"multiple","difficulty":"easy","question":"By
-        definition, where does an abyssopelagic animal live?","correct_answer":"At
-        the bottom of the ocean","incorrect_answers":["In the desert","On top of a
-        mountain","Inside a tree"]},{"category":"Animals","type":"multiple","difficulty":"hard","question":"Which
-        of these is a colony of polyps and not a jellyfish?","correct_answer":"Portuguese
-        Man-of-War","incorrect_answers":["Sea Wasp","Irukandji","Sea Nettle"]},{"category":"Animals","type":"boolean","difficulty":"medium","question":"You
-        can tell the age of a ladybird by counting the spots on his back.","correct_answer":"False","incorrect_answers":["True"]},{"category":"Animals","type":"multiple","difficulty":"medium","question":"&quot;Decapods&quot;
-        are an order of ten-footed crustaceans.  Which of these are NOT decapods?","correct_answer":"Krill","incorrect_answers":["Lobsters","Shrimp","Crabs"]}]}'
-  recorded_at: Tue, 01 Nov 2022 18:44:55 GMT
+        Grizzly Bear","Atlas Bear","Mexican Grizzly Bear"]},{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
+        scientific family does the Aardwolf belong to?","correct_answer":"Hyaenidae","incorrect_answers":["Canidae","Felidae","Eupleridae"]},{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
+        is the scientific name of the cheetah?","correct_answer":"Acinonyx jubatus","incorrect_answers":["Panthera
+        onca","Lynx rufus","Felis catus"]},{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        is the name of the family that the domestic cat is a member of?","correct_answer":"Felidae","incorrect_answers":["Felinae","Felis","Cat"]},{"category":"Animals","type":"boolean","difficulty":"easy","question":"The
+        Killer Whale is considered a type of dolphin.","correct_answer":"True","incorrect_answers":["False"]},{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        is the scientific name of the Common Chimpanzee?","correct_answer":"Pan troglodytes","incorrect_answers":["Gorilla
+        gorilla","Pan paniscus","Panthera leo"]},{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        is the common term for bovine spongiform encephalopathy (BSE)?","correct_answer":"Mad
+        Cow disease","incorrect_answers":["Weil&#039;s disease","Milk fever","Foot-and-mouth
+        disease"]},{"category":"Animals","type":"multiple","difficulty":"easy","question":"How
+        many teeth does an adult rabbit have?","correct_answer":"28","incorrect_answers":["30","26","24"]},{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
+        is the name of a rabbit&#039;s abode?","correct_answer":"Burrow","incorrect_answers":["Nest","Den","Dray"]}]}'
+  recorded_at: Thu, 03 Nov 2022 01:37:05 GMT
 recorded_with: VCR 6.1.0

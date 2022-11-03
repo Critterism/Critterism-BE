@@ -1,19 +1,23 @@
 class Charity
   attr_reader :description,
               :ein,
+              :id,
+              :location,
+              :logo,
               :name,
               :profile_url,
-              :location,
-              :tags,
-              :slug
+              :slug,
+              :tags
 
   def initialize(data)
     @description = data[:description]
     @ein = data[:ein]
+    @id = nil || data[:id]
+    @location = data[:location]
+    @logo = data[:logoUrl]
     @name = data[:name]
     @profile_url = data[:profileUrl]
-    @location = data[:location] || data[:locationAddress]
+    @slug = data[:slug]
     @tags = data[:tags]
-    @slug = data[:slug] || data[:primarySlug]
   end
 end
