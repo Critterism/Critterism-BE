@@ -8,5 +8,6 @@ class TriviaSerializer
               :difficulty,
               :question,
               :correct_answer,
-              :incorrect_answers
+              :incorrect_answers,
+              :answers
 end
