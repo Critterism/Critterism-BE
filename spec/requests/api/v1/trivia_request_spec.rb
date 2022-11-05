@@ -22,6 +22,5 @@ RSpec.describe 'Trivia Api Response' do
       expect(result[:attributes][:incorrect_answers]).to be_a Array
       expect(result[:attributes][:answers]).to be_a Array
     end
-
   end
 end

@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 03 Nov 2022 02:17:25 GMT
+      - Sat, 05 Nov 2022 06:31:12 GMT
       Server:
       - Apache
       Expires:
@@ -31,7 +31,7 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Set-Cookie:
-      - PHPSESSID=341c2dcbe2dc842990700f36ed225934; path=/
+      - PHPSESSID=20a9d6cf1e856df5ebdf412ddf3f0d64; path=/
       Upgrade:
       - h2
       Connection:
@@ -46,18 +46,19 @@ http_interactions:
       - application/json
     body:
       encoding: UTF-8
-      string: '{"response_code":0,"results":[{"category":"Animals","type":"boolean","difficulty":"medium","question":"An
-        octopus can fit through any hole larger than its beak.","correct_answer":"True","incorrect_answers":["False"]},{"category":"Animals","type":"multiple","difficulty":"easy","question":"The
-        K\u0101k\u0101p\u014d is a large, flightless, nocturnal parrot native to which
-        country?","correct_answer":"New Zealand","incorrect_answers":["South Africa","Australia","Madagascar"]},{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
-        color\/colour is a polar bear&#039;s skin?","correct_answer":"Black","incorrect_answers":["White","Pink","Green"]},{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
-        scientific family does the Aardwolf belong to?","correct_answer":"Hyaenidae","incorrect_answers":["Canidae","Felidae","Eupleridae"]},{"category":"Animals","type":"boolean","difficulty":"easy","question":"Rabbits
-        are rodents.","correct_answer":"False","incorrect_answers":["True"]},{"category":"Animals","type":"boolean","difficulty":"medium","question":"The
-        Platypus is a mammal.","correct_answer":"True","incorrect_answers":["False"]},{"category":"Animals","type":"multiple","difficulty":"easy","question":"Which
-        class of animals are newts members of?","correct_answer":"Amphibian","incorrect_answers":["Fish","Reptiles","Mammals"]},{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
-        is the name of the family that the domestic cat is a member of?","correct_answer":"Felidae","incorrect_answers":["Felinae","Felis","Cat"]},{"category":"Animals","type":"multiple","difficulty":"hard","question":"Which
-        of the following is another name for the &quot;Poecilotheria Metallica Tarantula&quot;?","correct_answer":"Gooty","incorrect_answers":["Hopper","Silver
-        Stripe","Woebegone"]},{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
-        colour is the female blackbird?","correct_answer":"Brown","incorrect_answers":["Black","White","Yellow"]}]}'
-  recorded_at: Thu, 03 Nov 2022 02:17:25 GMT
+      string: '{"response_code":0,"results":[{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        type of animal is a natterjack?","correct_answer":"Toad","incorrect_answers":["Bird","Fish","Insect"]},{"category":"Animals","type":"multiple","difficulty":"medium","question":"Cashmere
+        is the wool from which kind of animal?","correct_answer":"Goat","incorrect_answers":["Sheep","Camel","Llama"]},{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
+        is the Gray Wolf&#039;s scientific name?","correct_answer":"Canis Lupus","incorrect_answers":["Canis
+        Aureus","Canis Latrans","Canis Lupus Lycaon"]},{"category":"Animals","type":"boolean","difficulty":"easy","question":"A
+        flock of crows is known as a homicide.","correct_answer":"False","incorrect_answers":["True"]},{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
+        is Grumpy Cat&#039;s real name?","correct_answer":"Tardar Sauce","incorrect_answers":["Sauce","Minnie","Broccoli"]},{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        is the name of the family that the domestic cat is a member of?","correct_answer":"Felidae","incorrect_answers":["Felinae","Felis","Cat"]},{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        dog bread is one of the oldest breeds of dog and has flourished since before
+        400 BCE.","correct_answer":"Pugs","incorrect_answers":["Bulldogs","Boxers","Chihuahua"]},{"category":"Animals","type":"boolean","difficulty":"medium","question":"You
+        can tell the age of a ladybird by counting the spots on his back.","correct_answer":"False","incorrect_answers":["True"]},{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
+        is the name of a rabbit&#039;s abode?","correct_answer":"Burrow","incorrect_answers":["Nest","Den","Dray"]},{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        is the world&#039;s longest venomous snake?","correct_answer":"King Cobra","incorrect_answers":["Green
+        Anaconda","Inland Taipan","Yellow Bellied Sea Snake"]}]}'
+  recorded_at: Sat, 05 Nov 2022 06:31:12 GMT
 recorded_with: VCR 6.1.0
