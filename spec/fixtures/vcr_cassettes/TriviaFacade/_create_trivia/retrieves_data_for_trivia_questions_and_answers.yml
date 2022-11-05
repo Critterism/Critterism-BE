@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 05 Nov 2022 06:31:09 GMT
+      - Sat, 05 Nov 2022 17:45:29 GMT
       Server:
       - Apache
       Expires:
@@ -31,7 +31,7 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Set-Cookie:
-      - PHPSESSID=215d688a3d2d84b565e4ca6f003268c3; path=/
+      - PHPSESSID=7035489fa5143f5a01d889cef202a5d8; path=/
       Upgrade:
       - h2
       Connection:
@@ -46,17 +46,18 @@ http_interactions:
       - application/json
     body:
       encoding: UTF-8
-      string: '{"response_code":0,"results":[{"category":"Animals","type":"boolean","difficulty":"easy","question":"The
-        Axolotl is an amphibian that can spend its whole life in a larval state.","correct_answer":"True","incorrect_answers":["False"]},{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
-        are rhino&#039;s horn made of?","correct_answer":"Keratin","incorrect_answers":["Bone","Ivory","Skin"]},{"category":"Animals","type":"multiple","difficulty":"easy","question":"How
-        many legs do butterflies have?","correct_answer":"6","incorrect_answers":["2","4","0"]},{"category":"Animals","type":"multiple","difficulty":"medium","question":"For
-        what reason would a spotted hyena &quot;laugh&quot;?","correct_answer":"Nervousness","incorrect_answers":["Excitement","Aggression","Exhaustion"]},{"category":"Animals","type":"boolean","difficulty":"easy","question":"Rabbits
-        are rodents.","correct_answer":"False","incorrect_answers":["True"]},{"category":"Animals","type":"multiple","difficulty":"easy","question":"Which
-        class of animals are newts members of?","correct_answer":"Amphibian","incorrect_answers":["Fish","Reptiles","Mammals"]},{"category":"Animals","type":"boolean","difficulty":"easy","question":"Cats
-        have whiskers under their legs.","correct_answer":"True","incorrect_answers":["False"]},{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
-        is the collective noun for a group of crows?","correct_answer":"Murder","incorrect_answers":["Pack","Gaggle","Herd"]},{"category":"Animals","type":"multiple","difficulty":"hard","question":"Which
-        of these is a colony of polyps and not a jellyfish?","correct_answer":"Portuguese
-        Man-of-War","incorrect_answers":["Sea Wasp","Irukandji","Sea Nettle"]},{"category":"Animals","type":"boolean","difficulty":"easy","question":"The
-        freshwater amphibian, the Axolotl, can regrow it&#039;s limbs.","correct_answer":"True","incorrect_answers":["False"]}]}'
-  recorded_at: Sat, 05 Nov 2022 06:31:12 GMT
+      string: '{"response_code":0,"results":[{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        does &quot;hippopotamus&quot; mean and in what langauge?","correct_answer":"River
+        Horse (Greek)","incorrect_answers":["River Horse (Latin)","Fat Pig (Greek)","Fat
+        Pig (Latin)"]},{"category":"Animals","type":"multiple","difficulty":"medium","question":"A
+        carnivorous animal eats flesh, what does a nucivorous animal eat?","correct_answer":"Nuts","incorrect_answers":["Nothing","Fruit","Seaweed"]},{"category":"Animals","type":"boolean","difficulty":"easy","question":"A
+        slug&rsquo;s blood is green.","correct_answer":"True","incorrect_answers":["False"]},{"category":"Animals","type":"multiple","difficulty":"easy","question":"Hippocampus
+        is the Latin name for which marine creature?","correct_answer":"Seahorse","incorrect_answers":["Dolphin","Whale","Octopus"]},{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        are rhino&#039;s horn made of?","correct_answer":"Keratin","incorrect_answers":["Bone","Ivory","Skin"]},{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
+        scientific family does the Aardwolf belong to?","correct_answer":"Hyaenidae","incorrect_answers":["Canidae","Felidae","Eupleridae"]},{"category":"Animals","type":"multiple","difficulty":"medium","question":"Which
+        animal was part of an Russian domestication experiment in 1959?","correct_answer":"Foxes","incorrect_answers":["Pigeons","Bears","Alligators"]},{"category":"Animals","type":"boolean","difficulty":"medium","question":"You
+        can tell the age of a ladybird by counting the spots on his back.","correct_answer":"False","incorrect_answers":["True"]},{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
+        is the name of a rabbit&#039;s abode?","correct_answer":"Burrow","incorrect_answers":["Nest","Den","Dray"]},{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        is the collective noun for bears?","correct_answer":"Sloth","incorrect_answers":["Drove","Tribe","Husk"]}]}'
+  recorded_at: Sat, 05 Nov 2022 17:45:29 GMT
 recorded_with: VCR 6.1.0

@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 05 Nov 2022 06:31:12 GMT
+      - Sat, 05 Nov 2022 17:45:31 GMT
       Server:
       - Apache
       Expires:
@@ -31,7 +31,7 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Set-Cookie:
-      - PHPSESSID=20a9d6cf1e856df5ebdf412ddf3f0d64; path=/
+      - PHPSESSID=7286ea9896f7f5f7fd4f6e5fa6ab716e; path=/
       Upgrade:
       - h2
       Connection:
@@ -46,19 +46,20 @@ http_interactions:
       - application/json
     body:
       encoding: UTF-8
-      string: '{"response_code":0,"results":[{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
-        type of animal is a natterjack?","correct_answer":"Toad","incorrect_answers":["Bird","Fish","Insect"]},{"category":"Animals","type":"multiple","difficulty":"medium","question":"Cashmere
-        is the wool from which kind of animal?","correct_answer":"Goat","incorrect_answers":["Sheep","Camel","Llama"]},{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
-        is the Gray Wolf&#039;s scientific name?","correct_answer":"Canis Lupus","incorrect_answers":["Canis
-        Aureus","Canis Latrans","Canis Lupus Lycaon"]},{"category":"Animals","type":"boolean","difficulty":"easy","question":"A
-        flock of crows is known as a homicide.","correct_answer":"False","incorrect_answers":["True"]},{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
-        is Grumpy Cat&#039;s real name?","correct_answer":"Tardar Sauce","incorrect_answers":["Sauce","Minnie","Broccoli"]},{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
-        is the name of the family that the domestic cat is a member of?","correct_answer":"Felidae","incorrect_answers":["Felinae","Felis","Cat"]},{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
-        dog bread is one of the oldest breeds of dog and has flourished since before
-        400 BCE.","correct_answer":"Pugs","incorrect_answers":["Bulldogs","Boxers","Chihuahua"]},{"category":"Animals","type":"boolean","difficulty":"medium","question":"You
-        can tell the age of a ladybird by counting the spots on his back.","correct_answer":"False","incorrect_answers":["True"]},{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
-        is the name of a rabbit&#039;s abode?","correct_answer":"Burrow","incorrect_answers":["Nest","Den","Dray"]},{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+      string: '{"response_code":0,"results":[{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
+        is the fastest  land animal?","correct_answer":"Cheetah","incorrect_answers":["Lion","Thomson&rsquo;s
+        Gazelle","Pronghorn Antelope"]},{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        color\/colour is a polar bear&#039;s skin?","correct_answer":"Black","incorrect_answers":["White","Pink","Green"]},{"category":"Animals","type":"multiple","difficulty":"medium","question":"For
+        what reason would a spotted hyena &quot;laugh&quot;?","correct_answer":"Nervousness","incorrect_answers":["Excitement","Aggression","Exhaustion"]},{"category":"Animals","type":"boolean","difficulty":"medium","question":"The
+        Platypus is a mammal.","correct_answer":"True","incorrect_answers":["False"]},{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        is the name of the family that the domestic cat is a member of?","correct_answer":"Felidae","incorrect_answers":["Felinae","Felis","Cat"]},{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
+        is the name of the copper-rich protein that creates the blue blood in the
+        Antarctic octopus?","correct_answer":"Hemocyanin","incorrect_answers":["Cytochrome","Iron","Methionine"]},{"category":"Animals","type":"multiple","difficulty":"hard","question":"Which
+        of these is a colony of polyps and not a jellyfish?","correct_answer":"Portuguese
+        Man-of-War","incorrect_answers":["Sea Wasp","Irukandji","Sea Nettle"]},{"category":"Animals","type":"boolean","difficulty":"easy","question":"The
+        internet browser Firefox is named after the Red Panda.","correct_answer":"True","incorrect_answers":["False"]},{"category":"Animals","type":"multiple","difficulty":"hard","question":"To
+        which biological phylum do all mammals, birds and reptiles belong?","correct_answer":"Chordata","incorrect_answers":["Echinodermata","Annelida","Placazoa"]},{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
         is the world&#039;s longest venomous snake?","correct_answer":"King Cobra","incorrect_answers":["Green
         Anaconda","Inland Taipan","Yellow Bellied Sea Snake"]}]}'
-  recorded_at: Sat, 05 Nov 2022 06:31:12 GMT
+  recorded_at: Sat, 05 Nov 2022 17:45:31 GMT
 recorded_with: VCR 6.1.0
