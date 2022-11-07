@@ -23,5 +23,21 @@ Things you may want to cover:
 
 * ...
 
-## trivia endpoint ##
+## Trivia endpoint ##
 `localhost:3000/api/v1/trivia`
+`https://critterism-be.herokuapp.com/api/v1/trivia`
+
+## Charity endpoints ##
+
+### Animal Charities ###
+`http://localhost:3000/api/v1/charities/animals`
+`https://critterism-be.herokuapp.com/api/v1/charities/animals`
+
+### Wildlife Charities ###
+`http://localhost:3000/api/v1/charities/wildlife`
+`https://critterism-be.herokuapp.com/api/v1/charities/wildlife`
+
+### Charities Show ###
+`http://localhost:3000/api/v1/charities/{{slug}}`
+`https://critterism-be.herokuapp.com/api/v1/charities/{{slug}}`
+ 
