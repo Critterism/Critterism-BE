@@ -19,8 +19,8 @@ RSpec.describe 'Trivia Api Response' do
       expect(result[:attributes]).to have_key(:correct_answer)
       expect(result[:attributes]).to have_key(:incorrect_answers)
       expect(result[:attributes]).to have_key(:answers)
-      expect(result[:attributes][:incorrect_answers]).to be_a Array
-      expect(result[:attributes][:answers]).to be_a Array
+      expect(result[:attributes][:incorrect_answers]).to be_an Array
+      expect(result[:attributes][:answers]).to be_an Array
     end
   end
 end

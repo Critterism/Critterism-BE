@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 05 Nov 2022 17:48:02 GMT
+      - Mon, 07 Nov 2022 16:19:26 GMT
       Server:
       - Apache
       Expires:
@@ -31,7 +31,7 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Set-Cookie:
-      - PHPSESSID=2eb200411232133dc89b14a95abdbba2; path=/
+      - PHPSESSID=1b3834ec36cfb414ab2ee4e63588c1d5; path=/
       Upgrade:
       - h2
       Connection:
@@ -46,20 +46,18 @@ http_interactions:
       - application/json
     body:
       encoding: UTF-8
-      string: '{"response_code":0,"results":[{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
-        is the scientific name for modern day humans?","correct_answer":"Homo Sapiens","incorrect_answers":["Homo
-        Ergaster","Homo Erectus","Homo Neanderthalensis"]},{"category":"Animals","type":"multiple","difficulty":"easy","question":"Hippocampus
-        is the Latin name for which marine creature?","correct_answer":"Seahorse","incorrect_answers":["Dolphin","Whale","Octopus"]},{"category":"Animals","type":"multiple","difficulty":"easy","question":"How
-        many legs do butterflies have?","correct_answer":"6","incorrect_answers":["2","4","0"]},{"category":"Animals","type":"boolean","difficulty":"easy","question":"In
-        2016, the IUCN reclassified the status of Giant Pandas from endangered to
-        vulnerable.","correct_answer":"True","incorrect_answers":["False"]},{"category":"Animals","type":"multiple","difficulty":"hard","question":"Which
-        of these animals is NOT a lizard?","correct_answer":"Tuatara","incorrect_answers":["Komodo
-        Dragon","Gila Monster","Green Iguana"]},{"category":"Animals","type":"multiple","difficulty":"medium","question":"The
-        dish Fugu, is made from what family of fish?","correct_answer":"Pufferfish","incorrect_answers":["Bass","Salmon","Mackerel"]},{"category":"Animals","type":"boolean","difficulty":"medium","question":"Tigers
-        have one colour of skin despite the stripey fur.","correct_answer":"False","incorrect_answers":["True"]},{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
-        bird is born with claws on its wing digits?","correct_answer":"Hoatzin","incorrect_answers":["Cormorant","Cassowary","Secretary
-        bird"]},{"category":"Animals","type":"multiple","difficulty":"hard","question":"To
-        which biological phylum do all mammals, birds and reptiles belong?","correct_answer":"Chordata","incorrect_answers":["Echinodermata","Annelida","Placazoa"]},{"category":"Animals","type":"boolean","difficulty":"easy","question":"The
-        freshwater amphibian, the Axolotl, can regrow it&#039;s limbs.","correct_answer":"True","incorrect_answers":["False"]}]}'
-  recorded_at: Sat, 05 Nov 2022 17:48:02 GMT
+      string: '{"response_code":0,"results":[{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        type of animal is a natterjack?","correct_answer":"Toad","incorrect_answers":["Bird","Fish","Insect"]},{"category":"Animals","type":"boolean","difficulty":"medium","question":"An
+        octopus can fit through any hole larger than its beak.","correct_answer":"True","incorrect_answers":["False"]},{"category":"Animals","type":"multiple","difficulty":"medium","question":"Cashmere
+        is the wool from which kind of animal?","correct_answer":"Goat","incorrect_answers":["Sheep","Camel","Llama"]},{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        is the scientific name for the &quot;Polar Bear&quot;?","correct_answer":"Ursus
+        Maritimus","incorrect_answers":["Polar Bear","Ursus Spelaeus","Ursus Arctos"]},{"category":"Animals","type":"multiple","difficulty":"hard","question":"How
+        many known living species of hyenas are there?","correct_answer":"4","incorrect_answers":["8","2","6"]},{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
+        is the Gray Wolf&#039;s scientific name?","correct_answer":"Canis Lupus","incorrect_answers":["Canis
+        Aureus","Canis Latrans","Canis Lupus Lycaon"]},{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
+        type of creature is a Bonobo?","correct_answer":"Ape","incorrect_answers":["Lion","Parrot","Wildcat"]},{"category":"Animals","type":"multiple","difficulty":"hard","question":"Unlike
+        on most salamanders, this part of a newt is flat?","correct_answer":"Tail","incorrect_answers":["Head","Teeth","Feet"]},{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
+        is the name of a rabbit&#039;s abode?","correct_answer":"Burrow","incorrect_answers":["Nest","Den","Dray"]},{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
+        is the collective noun for vultures?","correct_answer":"Wake","incorrect_answers":["Ambush","Building","Gaze"]}]}'
+  recorded_at: Mon, 07 Nov 2022 16:19:26 GMT
 recorded_with: VCR 6.1.0
