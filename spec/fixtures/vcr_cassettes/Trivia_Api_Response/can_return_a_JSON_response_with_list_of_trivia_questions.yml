@@ -1,0 +1,65 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://opentdb.com/api.php?amount=10&category=27
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 07 Nov 2022 16:26:07 GMT
+      Server:
+      - Apache
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Access-Control-Allow-Origin:
+      - "*"
+      Set-Cookie:
+      - PHPSESSID=335f4ab940886466e848927afe1ced2b; path=/
+      Upgrade:
+      - h2
+      Connection:
+      - Upgrade
+      Vary:
+      - User-Agent
+      Strict-Transport-Security:
+      - max-age=31536000
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"response_code":0,"results":[{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
+        is the scientific name for modern day humans?","correct_answer":"Homo Sapiens","incorrect_answers":["Homo
+        Ergaster","Homo Erectus","Homo Neanderthalensis"]},{"category":"Animals","type":"boolean","difficulty":"easy","question":"A
+        bear does NOT defecate during hibernation. ","correct_answer":"True","incorrect_answers":["False"]},{"category":"Animals","type":"multiple","difficulty":"medium","question":"For
+        what reason would a spotted hyena &quot;laugh&quot;?","correct_answer":"Nervousness","incorrect_answers":["Excitement","Aggression","Exhaustion"]},{"category":"Animals","type":"multiple","difficulty":"medium","question":"Which
+        animal was part of an Russian domestication experiment in 1959?","correct_answer":"Foxes","incorrect_answers":["Pigeons","Bears","Alligators"]},{"category":"Animals","type":"multiple","difficulty":"medium","question":"The
+        now extinct species &quot;Thylacine&quot; was native to where?","correct_answer":"Tasmania,
+        Australia","incorrect_answers":["Baluchistan, Pakistan","Wallachia, Romania","Oregon,
+        United States"]},{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
+        is Grumpy Cat&#039;s real name?","correct_answer":"Tardar Sauce","incorrect_answers":["Sauce","Minnie","Broccoli"]},{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
+        type of creature is a Bonobo?","correct_answer":"Ape","incorrect_answers":["Lion","Parrot","Wildcat"]},{"category":"Animals","type":"boolean","difficulty":"easy","question":"Cats
+        have whiskers under their legs.","correct_answer":"True","incorrect_answers":["False"]},{"category":"Animals","type":"multiple","difficulty":"hard","question":"Which
+        of these is a colony of polyps and not a jellyfish?","correct_answer":"Portuguese
+        Man-of-War","incorrect_answers":["Sea Wasp","Irukandji","Sea Nettle"]},{"category":"Animals","type":"boolean","difficulty":"easy","question":"The
+        internet browser Firefox is named after the Red Panda.","correct_answer":"True","incorrect_answers":["False"]}]}'
+  recorded_at: Mon, 07 Nov 2022 16:26:07 GMT
+recorded_with: VCR 6.1.0

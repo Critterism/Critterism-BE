@@ -1,0 +1,66 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://opentdb.com/api.php?amount=10&category=27
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 07 Nov 2022 16:26:04 GMT
+      Server:
+      - Apache
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Access-Control-Allow-Origin:
+      - "*"
+      Set-Cookie:
+      - PHPSESSID=eb1605b55d5655a8ab5cf18d1860bd8a; path=/
+      Upgrade:
+      - h2
+      Connection:
+      - Upgrade
+      Vary:
+      - User-Agent
+      Strict-Transport-Security:
+      - max-age=31536000
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"response_code":0,"results":[{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        does &quot;hippopotamus&quot; mean and in what langauge?","correct_answer":"River
+        Horse (Greek)","incorrect_answers":["River Horse (Latin)","Fat Pig (Greek)","Fat
+        Pig (Latin)"]},{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        is the scientific name for the &quot;Polar Bear&quot;?","correct_answer":"Ursus
+        Maritimus","incorrect_answers":["Polar Bear","Ursus Spelaeus","Ursus Arctos"]},{"category":"Animals","type":"boolean","difficulty":"medium","question":"The
+        average lifespan of a wildcat is only around 5-6 years. ","correct_answer":"False","incorrect_answers":["True"]},{"category":"Animals","type":"multiple","difficulty":"hard","question":"Unlike
+        on most salamanders, this part of a newt is flat?","correct_answer":"Tail","incorrect_answers":["Head","Teeth","Feet"]},{"category":"Animals","type":"boolean","difficulty":"easy","question":"Cats
+        have whiskers under their legs.","correct_answer":"True","incorrect_answers":["False"]},{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
+        is the collective noun for a group of crows?","correct_answer":"Murder","incorrect_answers":["Pack","Gaggle","Herd"]},{"category":"Animals","type":"multiple","difficulty":"easy","question":"By
+        definition, where does an abyssopelagic animal live?","correct_answer":"At
+        the bottom of the ocean","incorrect_answers":["In the desert","On top of a
+        mountain","Inside a tree"]},{"category":"Animals","type":"boolean","difficulty":"medium","question":"Tigers
+        have one colour of skin despite the stripey fur.","correct_answer":"False","incorrect_answers":["True"]},{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
+        colour is the female blackbird?","correct_answer":"Brown","incorrect_answers":["Black","White","Yellow"]},{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        is the collective noun for bears?","correct_answer":"Sloth","incorrect_answers":["Drove","Tribe","Husk"]}]}'
+  recorded_at: Mon, 07 Nov 2022 16:26:04 GMT
+recorded_with: VCR 6.1.0
