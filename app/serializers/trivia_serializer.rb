@@ -1,12 +1,12 @@
 class TriviaSerializer
   include JSONAPI::Serializer
-
   set_id {nil}
 
-  attributes  :category,
-              :type,
-              :difficulty,
-              :question,
-              :correct_answer,
-              :incorrect_answers
+  attributes :category,
+             :type,
+             :difficulty,
+             :question,
+             :correct_answer,
+             :incorrect_answers,
+             :answers
 end

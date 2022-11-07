@@ -4,7 +4,8 @@ class Trivia
               :difficulty,
               :question,
               :correct_answer,
-              :incorrect_answers
+              :incorrect_answers,
+              :answers
 
   def initialize(results)
     @category = results[:category]
@@ -13,5 +14,10 @@ class Trivia
     @question = results[:question]
     @correct_answer = results[:correct_answer]
     @incorrect_answers = results[:incorrect_answers]
+    @answers = answers
+  end
+
+  def answers
+    [*incorrect_answers, correct_answer]
   end
 end
