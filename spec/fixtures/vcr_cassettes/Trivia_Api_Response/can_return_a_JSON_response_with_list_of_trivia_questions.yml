@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 05 Nov 2022 17:48:05 GMT
+      - Mon, 07 Nov 2022 16:06:10 GMT
       Server:
       - Apache
       Expires:
@@ -31,7 +31,7 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Set-Cookie:
-      - PHPSESSID=3451567356baedee6421e8d7f63d0839; path=/
+      - PHPSESSID=e739b619ce60b17aa4a842575a9b4aba; path=/
       Upgrade:
       - h2
       Connection:
@@ -46,20 +46,19 @@ http_interactions:
       - application/json
     body:
       encoding: UTF-8
-      string: '{"response_code":0,"results":[{"category":"Animals","type":"multiple","difficulty":"hard","question":"Which
-        species of Brown Bear is not extinct?","correct_answer":"Syrian Brown Bear","incorrect_answers":["California
-        Grizzly Bear","Atlas Bear","Mexican Grizzly Bear"]},{"category":"Animals","type":"boolean","difficulty":"easy","question":"Kangaroos
-        keep food in their pouches next to their children.","correct_answer":"False","incorrect_answers":["True"]},{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
-        do you call a baby bat?","correct_answer":"Pup","incorrect_answers":["Cub","Chick","Kid"]},{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
-        is the scientific name of the Budgerigar?","correct_answer":"Melopsittacus
-        undulatus","incorrect_answers":["Nymphicus hollandicus","Pyrrhura molinae","Ara
-        macao"]},{"category":"Animals","type":"boolean","difficulty":"easy","question":"Rabbits
-        are rodents.","correct_answer":"False","incorrect_answers":["True"]},{"category":"Animals","type":"boolean","difficulty":"easy","question":"A
-        flock of crows is known as a homicide.","correct_answer":"False","incorrect_answers":["True"]},{"category":"Animals","type":"boolean","difficulty":"easy","question":"A
-        caterpillar has more muscles than humans do.","correct_answer":"True","incorrect_answers":["False"]},{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
-        dog bread is one of the oldest breeds of dog and has flourished since before
-        400 BCE.","correct_answer":"Pugs","incorrect_answers":["Bulldogs","Boxers","Chihuahua"]},{"category":"Animals","type":"boolean","difficulty":"medium","question":"Tigers
-        have one colour of skin despite the stripey fur.","correct_answer":"False","incorrect_answers":["True"]},{"category":"Animals","type":"boolean","difficulty":"easy","question":"Rabbits
-        can see what&#039;s behind themselves without turning their heads.","correct_answer":"True","incorrect_answers":["False"]}]}'
-  recorded_at: Sat, 05 Nov 2022 17:48:04 GMT
+      string: '{"response_code":0,"results":[{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        does &quot;hippopotamus&quot; mean and in what langauge?","correct_answer":"River
+        Horse (Greek)","incorrect_answers":["River Horse (Latin)","Fat Pig (Greek)","Fat
+        Pig (Latin)"]},{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        color\/colour is a polar bear&#039;s skin?","correct_answer":"Black","incorrect_answers":["White","Pink","Green"]},{"category":"Animals","type":"multiple","difficulty":"easy","question":"Hippocampus
+        is the Latin name for which marine creature?","correct_answer":"Seahorse","incorrect_answers":["Dolphin","Whale","Octopus"]},{"category":"Animals","type":"multiple","difficulty":"hard","question":"How
+        many known living species of hyenas are there?","correct_answer":"4","incorrect_answers":["8","2","6"]},{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        is the fastest animal?","correct_answer":"Peregrine Falcon","incorrect_answers":["Golden
+        Eagle","Cheetah","Horsefly"]},{"category":"Animals","type":"multiple","difficulty":"medium","question":"The
+        dish Fugu, is made from what family of fish?","correct_answer":"Pufferfish","incorrect_answers":["Bass","Salmon","Mackerel"]},{"category":"Animals","type":"multiple","difficulty":"easy","question":"What
+        colour is the female blackbird?","correct_answer":"Brown","incorrect_answers":["Black","White","Yellow"]},{"category":"Animals","type":"multiple","difficulty":"medium","question":"What
+        is the collective noun for rats?","correct_answer":"Mischief","incorrect_answers":["Pack","Race","Drift"]},{"category":"Animals","type":"multiple","difficulty":"hard","question":"What
+        is the collective noun for vultures?","correct_answer":"Wake","incorrect_answers":["Ambush","Building","Gaze"]},{"category":"Animals","type":"multiple","difficulty":"hard","question":"To
+        which biological phylum do all mammals, birds and reptiles belong?","correct_answer":"Chordata","incorrect_answers":["Echinodermata","Annelida","Placazoa"]}]}'
+  recorded_at: Mon, 07 Nov 2022 16:06:12 GMT
 recorded_with: VCR 6.1.0
