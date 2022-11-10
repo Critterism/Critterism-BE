@@ -4,6 +4,8 @@
 
 The backend is responsible for receiving requests from the frontend, submitting requests to the Every.org and Open Trivia Database APIs, and return digestible JSON data for the frontend to consume. Crittism is currently deployed on Heroku, click <a href="https://critterism-fe.herokuapp.com/">here</a>. 
 
+The frontend repo is linked <a href="https://github.com/Critterism/FE-Critterism">here</a> and is deployed to heroku<a href="https://critterism-fe.herokuapp.com/">here</a>.
+
 <!-- TABLE OF CONTENTS -->
 
 <h2> Table of Contents</h2>
@@ -58,7 +60,7 @@ Once cloned, run the following commands:
   <li>rails db:create</li>
   <li>rails db:migrate</li>
   <li>Run the Figaro command: <em>bundle exec figaro install</em></li>
-  <li>Sign up for the Every.org API key <a href="https://www.every.org/charity-api">here</a>. Update the `application.yml` file with `ENV` variables storing API keys for <em>everyorg_api_key: '< your api key ></em>.</li>
+  <li>Sign up for the Every.org API key <a href="https://www.every.org/charity-api">here</a>. Update the `application.yml` file with `ENV` variables storing API keys for <em>everyorg_api_key: '< your api key >'</em>.</li>
 </ul>  
 
 <!-- SERVER API ENDPOINT -->
