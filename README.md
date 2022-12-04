@@ -38,6 +38,7 @@ The <a href="https://github.com/Critterism/FE-Critterism">Front End Repo</a> is 
 * [![Postman][Postman]][Postman-url]
 * [![CircleCI][CircleCI]][CircleCI-url]
 * [![Heroku][Heroku]][Heroku-url]
+* [![Fly][Fly]][Fly-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
