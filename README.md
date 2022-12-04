@@ -30,6 +30,7 @@ The <a href="https://github.com/Critterism/FE-Critterism">Front End Repo</a> is 
 * [![Atom][Atom]][Atom-url]
 * [![PostgreSQL][PostgreSQL]][PostgreSQL-url]
 * [![Postman][Postman]][Postman-url]
+* [![CircleCI][CircleCI]][CircleCI-url]
 
 <!-- TECHNICAL REQUIREMENTS -->
 
@@ -208,6 +209,9 @@ Once cloned, run the following commands:
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sunny-moore/)
 
 <!-- MARKDOWN LINKS & IMAGES -->
+
+[CircleCI]: https://img.shields.io/badge/circle%20ci-%23161616.svg?style=for-the-badge&logo=circleci&logoColor=white
+[CircleCI-url]: https://circleci.com/developer
 
 [Rails]: https://img.shields.io/badge/rails-%23CC0000.svg?style=for-the-badge&logo=ruby-on-rails&logoColor=white
 [Rails-url]: https://rubyonrails.org/
