@@ -57,17 +57,17 @@ The <a href="https://github.com/Critterism/FE-Critterism">Front End Repo</a> is 
 <h2 id="gems-and-tools">Gems and Tools</h2>
 
  * [bcrypt][bcrypt-docs]
- * [factory_bot_rails](https://github.com/thoughtbot/factory_bot_rails)
- * [faker](https://github.com/faker-ruby/faker)
- * [faraday](https://lostisland.github.io/faraday/)
- * [figaro](https://github.com/laserlemon/figaro)
- * [jsonapi-serializer](https://github.com/jsonapi-serializer/jsonapi-serializer)
- * [pry](https://github.com/pry/pry)
- * [rspec-rails](https://github.com/rspec/rspec-rails)
- * [shoulda-matchers](https://github.com/thoughtbot/shoulda-matchers)
- * [simplecov](https://github.com/simplecov-ruby/simplecov)
- * [vcr](https://github.com/vcr/vcr)
- * [webmock](https://github.com/bblimke/webmock)
+ * [factory_bot_rails][factory_bot_rails-docs]
+ * [faker][faker-docs]
+ * [faraday][faraday-docs]
+ * [figaro][figaro-docs]
+ * [jsonapi-serializer][jsonapi-serializer-docs]
+ * [pry][pry-docs]
+ * [rspec-rails][rspec-rails-docs]
+ * [shoulda-matchers][shoulda-matchers-docs]
+ * [simplecov][simplecov-docs]
+ * [vcr][vcr-docs]
+ * [webmock][webmock-docs]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
