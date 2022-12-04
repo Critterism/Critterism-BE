@@ -32,6 +32,8 @@ The <a href="https://github.com/Critterism/FE-Critterism">Front End Repo</a> is 
 * [![Postman][Postman]][Postman-url]
 * [![CircleCI][CircleCI]][CircleCI-url]
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- TECHNICAL REQUIREMENTS -->
 
 <h2 id="technical-requirements">Technical Requirements</h2>
@@ -40,6 +42,8 @@ The <a href="https://github.com/Critterism/FE-Critterism">Front End Repo</a> is 
 <li>Ruby 2.7.4</li>
 <li>Rails 5.2.8</li>
 </ul>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GEMS AND TOOLS -->
 
@@ -58,6 +62,8 @@ The <a href="https://github.com/Critterism/FE-Critterism">Front End Repo</a> is 
  * [vcr](https://github.com/vcr/vcr)
  * [webmock](https://github.com/bblimke/webmock)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- INSTALLATION -->
 
 <h2 id="installation"> </h2>
@@ -75,6 +81,8 @@ Once cloned, run the following commands:
   <li>Run the Figaro command: <em>bundle exec figaro install</em></li>
   <li>Sign up for the <a href="https://www.every.org/charity-api">every.org API key</a>. Update the `application.yml` file with `ENV` variables storing API keys for <em>everyorg_api_key: '< your api key >'</em>.</li>
 </ul>  
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SERVER API ENDPOINT -->
 <h2 id="endpoints"> Endpoints</h2>
@@ -184,6 +192,7 @@ Once cloned, run the following commands:
   </code>
 </pre>
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTORS -->
 <h2 id="contributors"> Contributors</h2>
@@ -207,6 +216,8 @@ Once cloned, run the following commands:
 
 [![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sunny-moore)
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sunny-moore/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
