@@ -9,6 +9,7 @@ The <a href="https://github.com/Critterism/FE-Critterism">Front End Repo</a> is 
 <!-- TABLE OF CONTENTS -->
 
 <h2> Table of Contents</h2>
+
 <details open="open">
 <summary>Table of Contents</summary>
   <ol>
@@ -21,8 +22,10 @@ The <a href="https://github.com/Critterism/FE-Critterism">Front End Repo</a> is 
   </ol>
 </details>
 
+
 <!-- Built With -->
-## Built With
+
+<h2 id="built-with">Built With</h2>
 
 * [![Rails][Rails]][Rails-url]
 * [![Ruby][Ruby]][Ruby-url]
