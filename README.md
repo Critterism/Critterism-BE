@@ -4,7 +4,7 @@
 
 The backend is responsible for receiving requests from the frontend, submitting requests to the Every.org and Open Trivia Database APIs, and return digestible JSON data for the frontend to consume. Crittism is currently deployed on <a href="https://critterism-fe.herokuapp.com/">Heroku</a>. 
 
-The <a href="https://github.com/Critterism/FE-Critterism">Front End Repo</a> and is deployed to <a href="https://critterism-fe.herokuapp.com/">Heroku</a>.
+The <a href="https://github.com/Critterism/FE-Critterism">Front End Repo</a> is deployed to <a href="https://critterism-fe.herokuapp.com/">Heroku</a>.
 
 <!-- TABLE OF CONTENTS -->
 
@@ -34,6 +34,7 @@ The <a href="https://github.com/Critterism/FE-Critterism">Front End Repo</a> and
 <!-- TECHNICAL REQUIREMENTS -->
 
 <h2 id="technical-requirements">Technical Requirements</h2>
+
 <ul>
 <li>Ruby 2.7.4</li>
 <li>Rails 5.2.8</li>
@@ -42,19 +43,19 @@ The <a href="https://github.com/Critterism/FE-Critterism">Front End Repo</a> and
 <!-- GEMS AND TOOLS -->
 
 <h2 id="gems-and-tools">Gems and Tools</h2>
-<ul>
-  <li>Factory Bot</li>
-  <li>Faker</li>
-  <li>Faraday</li>
-  <li>Figaro</li>
-  <li>JsonApi Serializer</li>
-  <li>Postman</li>
-  <li>Pry</li>
-  <li>SimpleCov</li>
-  <li>VCR</li>
-  <li>Webmock</li>
-  <li>RSpec</li>
-</ul>
+
+ * [bcrypt][bcrypt-docs]
+ * [factory_bot_rails](https://github.com/thoughtbot/factory_bot_rails)
+ * [faker](https://github.com/faker-ruby/faker)
+ * [faraday](https://lostisland.github.io/faraday/)
+ * [figaro](https://github.com/laserlemon/figaro)
+ * [jsonapi-serializer](https://github.com/jsonapi-serializer/jsonapi-serializer)
+ * [pry](https://github.com/pry/pry)
+ * [rspec-rails](https://github.com/rspec/rspec-rails)
+ * [shoulda-matchers](https://github.com/thoughtbot/shoulda-matchers)
+ * [simplecov](https://github.com/simplecov-ruby/simplecov)
+ * [vcr](https://github.com/vcr/vcr)
+ * [webmock](https://github.com/bblimke/webmock)
 
 <!-- INSTALLATION -->
 
@@ -71,7 +72,7 @@ Once cloned, run the following commands:
   <li>rails db:create</li>
   <li>rails db:migrate</li>
   <li>Run the Figaro command: <em>bundle exec figaro install</em></li>
-  <li>Sign up for the Every.org API key <a href="https://www.every.org/charity-api">here</a>. Update the `application.yml` file with `ENV` variables storing API keys for <em>everyorg_api_key: '< your api key >'</em>.</li>
+  <li>Sign up for the <a href="https://www.every.org/charity-api">every.org API key</a>. Update the `application.yml` file with `ENV` variables storing API keys for <em>everyorg_api_key: '< your api key >'</em>.</li>
 </ul>  
 
 <!-- SERVER API ENDPOINT -->
@@ -225,3 +226,6 @@ Once cloned, run the following commands:
 
 [Postman]: https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white
 [Postman-url]: https://web.postman.co/
+
+[bcrypt-docs]: https://github.com/bcrypt-ruby/bcrypt-ruby
+
