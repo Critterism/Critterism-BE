@@ -33,9 +33,11 @@ The <a href="https://github.com/Critterism/FE-Critterism">Front End Repo</a> is 
 * [![Ruby][Ruby]][Ruby-url]
 * [![RSpec][RSpec]][RSpec-url]
 * [![Atom][Atom]][Atom-url]
+* [![Visual Studio Code][Visual Studio Code]][Visual Studio Code-url]
 * [![PostgreSQL][PostgreSQL]][PostgreSQL-url]
 * [![Postman][Postman]][Postman-url]
 * [![CircleCI][CircleCI]][CircleCI-url]
+* [![Heroku][Heroku]][Heroku-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -235,6 +237,9 @@ Once cloned, run the following commands:
 [Atom]: https://img.shields.io/badge/Atom-66595C?style=for-the-badge&logo=Atom&logoColor=white
 [Atom-url]: https://atom.io/
 
+[Visual Studio Code]: https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white
+[Visual Studio Code-url]: https://code.visualstudio.com/
+
 [Ruby]: https://img.shields.io/badge/Ruby-000000?style=for-the-badge&logo=ruby&logoColor=CC342D
 [Ruby-url]: https://www.ruby-lang.org/en/
 
@@ -247,5 +252,22 @@ Once cloned, run the following commands:
 [Postman]: https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white
 [Postman-url]: https://web.postman.co/
 
-[bcrypt-docs]: https://github.com/bcrypt-ruby/bcrypt-ruby
+[Heroku]: https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white
+[Heroku-url]: https://www.heroku.com/
 
+[bcrypt-docs]: https://github.com/bcrypt-ruby/bcrypt-ruby
+[capybara-docs]: https://github.com/teamcapybara/capybara
+[factory_bot_rails-docs]: https://github.com/thoughtbot/factory_bot_rails
+[faker-docs]: https://github.com/faker-ruby/faker
+[faraday-docs]: https://lostisland.github.io/faraday/
+[figaro-docs]: https://github.com/laserlemon/figaro
+[jsonapi-serializer-docs]: https://github.com/jsonapi-serializer/jsonapi-serializer
+[launchy-docs]: https://www.rubydoc.info/gems/launchy/2.2.0
+[omniauth-google-oauth2-docs]: https://github.com/zquestz/omniauth-google-oauth2
+[orderly-docs]: https://github.com/jmondo/orderly
+[pry-docs]: https://github.com/pry/pry
+[rspec-rails-docs]: https://github.com/rspec/rspec-rails
+[shoulda-matchers-docs]: https://github.com/thoughtbot/shoulda-matchers
+[simplecov-docs]: https://github.com/simplecov-ruby/simplecov
+[vcr-docs]: https://github.com/vcr/vcr
+[webmock-docs]: https://github.com/bblimke/webmock
