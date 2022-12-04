@@ -242,7 +242,7 @@ Once cloned, run the following commands:
 [CSS]: 	https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white
 [CSS-url]: https://en.wikipedia.org/wiki/CSS
 
-[Fly]: https://img.shields.io/badge/Fly-gray?style=for-the-badge&logo=fly-io&logoColor=9C27B0
+[Fly]: https://custom-icon-badges.demolab.com/badge/Fly-3F51B5?style=for-the-badge&logo=fly-io&logoColor=white
 [Fly-url]: https://fly.io/
 
 [GitHub Badge]: https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
