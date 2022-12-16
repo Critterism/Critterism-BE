@@ -29,17 +29,20 @@ The <a href="https://github.com/Critterism/FE-Critterism">Front End Repo</a> is 
 
 <h2 id="built-with">Built With</h2>
 
-* [![Rails][Rails]][Rails-url]
-* [![Ruby][Ruby]][Ruby-url]
-* [![RSpec][RSpec]][RSpec-url]
-* [![Atom][Atom]][Atom-url]
-* [![Visual Studio Code][Visual Studio Code]][Visual Studio Code-url]
-* [![PostgreSQL][PostgreSQL]][PostgreSQL-url]
-* [![Postman][Postman]][Postman-url]
-* [![CircleCI][CircleCI]][CircleCI-url]
-* [![Heroku][Heroku]][Heroku-url]
-* [![Fly][Fly]][Fly-url]
-* [![Miro][Miro]][Miro-url]
+<div align="center">
+  
+  <p>
+
+[![Rails][Rails]][Rails-url] [![Ruby][Ruby]][Ruby-url] [![RSpec][RSpec]][RSpec-url] [![Atom][Atom]][Atom-url] [![Visual Studio Code][Visual Studio    Code]][Visual Studio Code-url]
+
+  </p>
+  <p>
+  
+ [![Miro][Miro]][Miro-url] [![PostgreSQL][PostgreSQL]][PostgreSQL-url] [![Postman][Postman]][Postman-url] [![CircleCI][CircleCI]][CircleCI-url] [![Heroku][Heroku]][Heroku-url]
+ 
+  </p>
+  
+</div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
