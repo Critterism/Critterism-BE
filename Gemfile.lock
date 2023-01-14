@@ -57,6 +57,10 @@ GEM
     date (3.3.3)
     diff-lcs (1.5.0)
     docile (1.4.0)
+    dotenv (2.8.1)
+    dotenv-rails (2.8.1)
+      dotenv (= 2.8.1)
+      railties (>= 3.2)
     erubi (1.12.0)
     factory_bot (6.2.1)
       activesupport (>= 5.0.0)
@@ -86,7 +90,7 @@ GEM
     loofah (2.19.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
-    mail (2.8.0)
+    mail (2.8.0.1)
       mini_mime (>= 0.1.1)
       net-imap
       net-pop
@@ -107,7 +111,7 @@ GEM
     net-smtp (0.3.3)
       net-protocol
     nio4r (2.5.8)
-    nokogiri (1.13.10)
+    nokogiri (1.14.0)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     pg (1.4.5)
@@ -203,13 +207,14 @@ PLATFORMS
 DEPENDENCIES
   bcrypt (~> 3.1.7)
   bootsnap (>= 1.1.0)
+  dotenv-rails
   factory_bot_rails
   faker
   faraday
   figaro
   jsonapi-serializer
   listen (>= 3.0.5, < 3.2)
-  pg (>= 0.18, < 2.0)
+  pg
   pry
   puma (~> 3.11)
   rails (~> 5.2.8)
