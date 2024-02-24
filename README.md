@@ -7,7 +7,13 @@
 
 </div>
 
+<div align="center">
+
+![CritterismTrans](https://github.com/Critterism/Critterism-BE/assets/103849872/414462dc-e155-4841-9fae-adb1021cad70)
+
 # Critterism - Back End
+
+</div>
 
 <b>Critterism</b> is an animal trivia application with an ulterior cause that seeks to persuade animal welfare without the Sarah McLachlan guilt trip soundtrack.
 
@@ -40,12 +46,12 @@ The <a href="https://github.com/Critterism/FE-Critterism">Front End Repo</a> is 
 
   <p>
 
-[![Rails][Rails]][Rails-url] [![Ruby][Ruby]][Ruby-url] [![RSpec][RSpec]][RSpec-url] [![Atom][Atom]][Atom-url] [![Visual Studio Code][Visual Studio    Code]][Visual Studio Code-url]
+[![ror][ror]][ror-url] [![RSpec][RSpec]][RSpec-url] [![PostgreSQL][PostgreSQL]][PostgreSQL-url] [![Atom][Atom]][Atom-url] [![Visual Studio Code][Visual Studio    Code]][Visual Studio Code-url]
 
   </p>
   <p>
 
- [![Miro][Miro]][Miro-url] [![PostgreSQL][PostgreSQL]][PostgreSQL-url] [![Postman][Postman]][Postman-url] [![CircleCI][CircleCI]][CircleCI-url] [![Heroku][Heroku]][Heroku-url]
+ [![Miro][Miro]][Miro-url] [![Slack][Slack]][Slack-url] [![Postman][Postman]][Postman-url] [![GitHub Actions][GitHub Actions]][GitHub Actions-url] [![Heroku][Heroku]][Heroku-url]
 
   </p>
 
@@ -247,8 +253,15 @@ Once cloned, run the following commands:
 [Bootstrap]: https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com/
 
+[Capybara]: https://custom-icon-badges.demolab.com/badge/Capybara-F7F4EF?style=for-the-badge&logo=capybara
+[Capybara-url]: https://www.patreon.com/capybara
+
 [CircleCI]: https://img.shields.io/badge/circle%20ci-%23161616.svg?style=for-the-badge&logo=circleci&logoColor=white
 [CircleCI-url]: https://circleci.com/developer
+
+[Code Climate]: https://img.shields.io/badge/Code%20Climate-000?logo=codeclimate&logoColor=fff
+[CodeClimate]: https://img.shields.io/badge/Code%20Climate-000?style=for-the-badge&logo=codeclimate&logoColor=fff
+[CodeClimate-url]: https://codeclimate.com
 
 [CSS]: https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white
 [CSS-url]: https://en.wikipedia.org/wiki/CSS
@@ -256,8 +269,14 @@ Once cloned, run the following commands:
 [Fly]: https://custom-icon-badges.demolab.com/badge/Fly-DCDCDC?style=for-the-badge&logo=fly-io
 [Fly-url]: https://fly.io/
 
+[Git]: https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white
+[Git-url]: https://git-scm.com/
+
 [GitHub Badge]: https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
 [GitHub-url]: https://github.com/<Username>/
+
+[GitHub Actions]: https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white
+[GitHub Actions-url]: https://github.com/features/actions
 
 [Heroku]: https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white
 [Heroku-url]: https://www.heroku.com/
@@ -286,6 +305,9 @@ Once cloned, run the following commands:
 [Rails]: https://img.shields.io/badge/rails-%23CC0000.svg?style=for-the-badge&logo=ruby-on-rails&logoColor=white
 [Rails-url]: https://rubyonrails.org/
 
+[ror]: https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white
+[ror-url]: https://rubyonrails.org/
+
 [RSpec]: https://custom-icon-badges.demolab.com/badge/RSpec-fffcf7?style=for-the-badge&logo=rspec
 [RSpec-url]: https://rspec.info/
 
@@ -295,8 +317,23 @@ Once cloned, run the following commands:
 [Ruby]: https://img.shields.io/badge/Ruby-000000?style=for-the-badge&logo=ruby&logoColor=CC342D
 [Ruby-url]: https://www.ruby-lang.org/en/
 
+[Slack]: https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white
+[Slack-url]: https://slack.com/trials?remote_promo=f4d95f0b&utm_medium=ppc&utm_source=google&utm_campaign=ppc_google_amer_en_brand_selfserve_discount&utm_term=Slack_Exact_._slack_._e_._c&utm_content=611662283461&gclid=Cj0KCQiA54KfBhCKARIsAJzSrdptOf7OUrgfeH0CWCC7LaOjR8arXoBnBMZjUSTJqmzTKvH6Jh-YXzAaAjfWEALw_wcB&gclsrc=aw.ds
+
+[Tailwind]: https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white
+[Tailwind-url]: https://tailwindcss.com/
+
+[Turing]: https://custom-icon-badges.demolab.com/badge/Turing-DCDCDC?style=for-the-badge&logo=turing_school
+[Turing-url]: https://turing.edu/
+
 [Visual Studio Code]: https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white
 [Visual Studio Code-url]: https://code.visualstudio.com/
+
+[XCode]: https://img.shields.io/badge/Xcode-007ACC?style=for-the-badge&logo=Xcode&logoColor=white
+[XCode-url]: https://developer.apple.com/xcode/
+
+[Zoom]: https://img.shields.io/badge/Zoom-2D8CFF?style=for-the-badge&logo=zoom&logoColor=white
+[Zoom-url]: https://zoom.us/
 
 [bcrypt-docs]: https://github.com/bcrypt-ruby/bcrypt-ruby
 [capybara-docs]: https://github.com/teamcapybara/capybara
