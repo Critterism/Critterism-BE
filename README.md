@@ -1,5 +1,12 @@
 <a name="readme-top"></a>
 
+<div align="right">
+
+[![Coverage](badge.svg)](https://github.com/Critterism/Critterism-BE)
+[![Ruby on Rails CI](https://github.com/Critterism/Critterism-BE/actions/workflows/rubyonrails.yml/badge.svg)](https://github.com/Critterism/Critterism-BE/actions/workflows/rubyonrails.yml)
+
+</div>
+
 # Critterism - Back End
 
 <b>Critterism</b> is an animal trivia application with an ulterior cause that seeks to persuade animal welfare without the Sarah McLachlan guilt trip soundtrack.

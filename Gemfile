@@ -42,6 +42,7 @@ group :test do
   gem 'rspec-rails'
   gem 'shoulda-matchers'
   gem 'simplecov', require: false
+  gem 'simplecov-shields-badge', require: false
   gem 'vcr'
   gem 'webmock'
 end
