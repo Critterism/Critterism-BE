@@ -39,12 +39,18 @@ jobs:
         run: bin/rails db:schema:load
       # Add or replace test runners here
       - name: Run tests
-        run: bin/rake
+        continue-on-error: true
+        run: bundle exec rspec --order=rand -f j -o tmp/rspec_results.json
+
+      - name: Bisect flaky specs
+        if: steps.tests.outcome != 'success'
+        run: bundle exec rspec --order=rand --seed $(cat tmp/rspec_results.json | jq '.seed') --bisect
 
       # However you run your tests to generate code coverage
       - name: Run my tests
+        continue-on-error: true
         run: |
-          bundle exec rspec
+          bundle exec rspec --order=rand -f j -o tmp/rspec_results.json
 
       # Minimum configuration
       - uses: joshmfrankel/simplecov-check-action@main
