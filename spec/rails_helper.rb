@@ -71,7 +71,6 @@ VCR.configure do |config|
   config.filter_sensitive_data('<api_key>') { ENV['everyorg_api_key'] }
   config.default_cassette_options = { re_record_interval: 7.days }
   config.allow_http_connections_when_no_cassette = true
-
 end
 
 Shoulda::Matchers.configure do |config|
@@ -85,3 +84,4 @@ SimpleCov.add_filter ["app/channels", "app/helpers", "app/mailers", "app/jobs"]
 SimpleCov.add_filter 'app/controllers/concerns/exception_handler.rb'
 SimpleCov.add_filter 'spec/rails_helper.rb'
 SimpleCov.add_filter 'app/controllers/concerns/response.rb'
+SimpleCov.add_filter 'app/models/application_record.rb'

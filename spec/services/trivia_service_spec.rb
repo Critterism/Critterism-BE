@@ -1,8 +1,8 @@
 require 'rails_helper'
 
 RSpec.describe TriviaService, type: :service do
-  describe '.get_trivia_data' do
-    it 'retrieves trivia q and a data and parses the response', :vcr do
+  describe '.get_trivia_data', :vcr do
+    it 'retrieves trivia q and a data and parses the response' do
       parsed_json = TriviaService.get_trivia_data
       expect(parsed_json).to be_a Array
       expect(parsed_json[0]).to be_a Hash
