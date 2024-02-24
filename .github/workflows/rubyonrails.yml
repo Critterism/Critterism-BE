@@ -46,11 +46,11 @@ jobs:
         if: steps.tests.outcome != 'success'
         run: bundle exec rspec --order=rand --seed $(cat tmp/rspec_results.json | jq '.seed') --bisect
 
-      # However you run your tests to generate code coverage
-      - name: Run my tests
-        continue-on-error: true
-        run: |
-          bundle exec rspec
+      # # However you run your tests to generate code coverage
+      # - name: Run my tests
+      #   continue-on-error: true
+      #   run: |
+      #     bundle exec rspec
 
       # Minimum configuration
       - uses: joshmfrankel/simplecov-check-action@main
