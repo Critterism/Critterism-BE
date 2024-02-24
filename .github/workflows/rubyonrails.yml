@@ -50,7 +50,7 @@ jobs:
       - name: Run my tests
         continue-on-error: true
         run: |
-          bundle exec rspec --order=rand -f j -o tmp/rspec_results.json
+          bundle exec rspec
 
       # Minimum configuration
       - uses: joshmfrankel/simplecov-check-action@main
