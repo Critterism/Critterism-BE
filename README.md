@@ -2,9 +2,9 @@
 
 # Critterism - Back End
 
-<b>Critterism</b> is an animal trivia application with an ulterior cause that seeks to persuade animal welfare without the Sarah McLachlan guilt trip soundtrack. 
+<b>Critterism</b> is an animal trivia application with an ulterior cause that seeks to persuade animal welfare without the Sarah McLachlan guilt trip soundtrack.
 
-The backend is responsible for receiving requests from the frontend, submitting requests to the Every.org and Open Trivia Database APIs, and return digestible JSON data for the frontend to consume. Crittism is currently deployed on <a href="https://critterism-fe.herokuapp.com/">Heroku</a>. 
+The backend is responsible for receiving requests from the frontend, submitting requests to the Every.org and Open Trivia Database APIs, and return digestible JSON data for the frontend to consume. Crittism is currently deployed on <a href="https://critterism-fe.herokuapp.com/">Heroku</a>.
 
 The <a href="https://github.com/Critterism/FE-Critterism">Front End Repo</a> is deployed to <a href="https://critterism-fe.herokuapp.com/">Heroku</a>.
 
@@ -30,18 +30,18 @@ The <a href="https://github.com/Critterism/FE-Critterism">Front End Repo</a> is 
 <h2 id="built-with">Built With</h2>
 
 <div align="center">
-  
+
   <p>
 
 [![Rails][Rails]][Rails-url] [![Ruby][Ruby]][Ruby-url] [![RSpec][RSpec]][RSpec-url] [![Atom][Atom]][Atom-url] [![Visual Studio Code][Visual Studio    Code]][Visual Studio Code-url]
 
   </p>
   <p>
-  
+
  [![Miro][Miro]][Miro-url] [![PostgreSQL][PostgreSQL]][PostgreSQL-url] [![Postman][Postman]][Postman-url] [![CircleCI][CircleCI]][CircleCI-url] [![Heroku][Heroku]][Heroku-url]
- 
+
   </p>
-  
+
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -84,14 +84,15 @@ To get started, clone the repo in your terminal by entering the following:
 <ul>
   <li>git clone git@github.com:Critterism/Critterism-BE.git</li>
 </ul>  
-   
+
 Once cloned, run the following commands:
 <ul>
   <li>bundle install</li>
   <li>rails db:create</li>
   <li>rails db:migrate</li>
   <li>Run the Figaro command: <em>bundle exec figaro install</em></li>
-  <li>Sign up for the <a href="https://www.every.org/charity-api">every.org API key</a>. Update the `application.yml` file with `ENV` variables storing API keys for <em>everyorg_api_key: '< your api key >'</em>.</li>
+  <li>Sign up for the <a href="https://www.every.org/charity-api">every.org API key</a>.</li>
+  <li>Update the `application.yml` file with `ENV` variables storing API keys for <em>everyorg_api_key: '< your api key >'</em>.</li>
 </ul>  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -233,7 +234,7 @@ Once cloned, run the following commands:
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[Atom]: https://img.shields.io/badge/Atom-66595C?style=for-the-badge&logo=Atom&logoColor=white
+[Atom]: https://custom-icon-badges.demolab.com/badge/Atom-5FB57D?style=for-the-badge&logo=atom
 [Atom-url]: https://atom.io/
 
 [Bootstrap]: https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white
